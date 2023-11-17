@@ -1,0 +1,170 @@
+*{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    z-index:1;
+}
+header nav{
+    display:flex;
+    gap: 25px;
+    padding-right: 20px;
+    font-size: 19px;
+}
+header li{
+    list-style-type: none;
+}
+.button1{
+    border-radius: 25px;
+    padding: 5px 17px;
+    color: white;
+    font-size: 13px;
+    border: 1px solid transparent;
+    background-color: crimson;
+}
+.button1:hover{
+    background-color: aquamarine;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: 400px;
+}
+nav li:hover{
+    color:blue;
+    transition:background-color 0.5s ease;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+}
+section{
+    padding-top: 100px;
+}
+.images{
+    display: flex;
+    gap:15px;
+}
+.button1{
+    margin-right:20px
+}
+/* education and skills section */
+.skill{
+    font-size:35px;
+    color: rgb(228, 53, 53);
+}
+.skill2{
+    font-size:35px;
+    color: blue;
+}
+.skill4{
+    font-size:35px;
+    color: rgb(21, 171, 59);
+}
+.skill3{
+    font-size:35px;
+    color: rgb(233, 19, 130);
+}
+/* project section */
+.scrollable{
+    background-size: cover !important;
+    width: 250px;
+    height: 290px;
+    cursor: pointer;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 7px;
+    transition: background-position 1.5s ease-out 0.5s ;
+}
+.scroll-top1{
+    background: url("/codeSoft/assets/E-commerce.jpeg");
+    background-position: top center;
+}
+.scroll-top1:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.3);
+}
+.scroll-top2{
+    background: url("/codeSoft/assets/Portfolio.jpeg");
+    background-position: top center;
+}
+.scroll-top2:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top3{
+    background: url("/codeSoft/assets/Flipzon.jpeg");
+    background-position: top center;
+}
+.scroll-top3:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top4{
+    background: url("/codeSoft/assets/Art\ blog.jpeg");
+    background-position: top center;
+}
+.scroll-top4:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top5{
+    background: url("/codeSoft/assets/Movie\ review.jpeg");
+    background-position: top center;
+}
+.scroll-top5:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top6{
+    background: url("/codeSoft/assets/calculator.jpeg");
+    background-position: top center;
+}
+.scroll-top6:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top7{
+    background: url("/codeSoft/assets/login.jpeg");
+    background-position: top center;
+}
+.scroll-top7:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+.scroll-top8{
+    background: url("/codeSoft/assets/resume.jpeg");
+    background-position: top center;
+}
+.scroll-top8:hover{
+    background-position: bottom center !important;
+    transition: background-position 1s linear 0s;
+    box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.3);
+}
+/* contact section */
+input{
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgb(57, 167, 203);
+}
+::placeholder{
+    color: rgb(110, 109, 109);
+}
+.img1{
+    border-radius: 20px;
+}
